@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>A/é Café — Shop</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand"><span class="accent">A/é</span> Café</div>
+    <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="desktop">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="locations.html">Locations</a>
+      <a href="blog.html">Blog</a>
+      <a href="events.html">Events</a>
+      <a href="catering.html">Catering</a>
+      <a href="shop.html" class="active">Shop</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="section-title"><span class="rule"></span><div>Shop</div><span class="rule"></span></div>
+
+    <div class="shop-grid">
+      <div class="card" data-id="p1" data-name="A/é Brew Bag" data-price="300" data-img="images/101.jpg">
+        <img src="images/101.jpg" alt="A/é Brew Bag">
+        <div style="font-weight:700">A/é Brew Bag</div>
+        <div class="price">₱300</div>
+        <button class="add-to-cart btn">Add to cart</button>
+      </div>
+      <div class="card" data-id="p2" data-name="A/é Mug" data-price="250" data-img="images/ae1.jpg">
+        <img src="images/ae1.jpg" alt="A/é Mug">
+        <div style="font-weight:700">A/é Mug</div>
+        <div class="price">₱250</div>
+        <button class="add-to-cart btn">Add to cart</button>
+      </div>
+      <div class="card" data-id="p3" data-name="Sticker Pack" data-price="80" data-img="images/112.jpg">
+        <img src="images/112.jpg" alt="Sticker pack">
+        <div style="font-weight:700">Sticker Pack</div>
+        <div class="price">₱80</div>
+        <button class="add-to-cart btn">Add to cart</button>
+      </div>
+      <div class="card" data-id="p4" data-name="Gift Card" data-price="500" data-img="images/110.jpg">
+        <img src="images/110.jpg" alt="Gift card">
+        <div style="font-weight:700">Gift Card</div>
+        <div class="price">₱500</div>
+        <button class="add-to-cart btn">Add to cart</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Cart Drawer -->
+  <div class="cart-drawer">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button class="close-cart btn" style="background:#ccc;color:#000">✖</button>
+    </div>
+    <div class="cart-items"></div>
+  </div>
+
+  <footer>© 2024 A/é Café — Shop</footer>
+</body>
+</html>

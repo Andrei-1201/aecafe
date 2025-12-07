@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>A/é Café — Events</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="brand"><span class="accent">A/é</span> Café</div>
+    <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="desktop">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="locations.html">Locations</a>
+      <a href="blog.html">Blog</a>
+      <a href="events.html" class="active">Events</a>
+      <a href="catering.html">Catering</a>
+      <a href="shop.html">Shop</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="section-title"><span class="rule"></span><div>Events</div><span class="rule"></span></div>
+    <img src="images/aecafe-event logo.jpg" alt="A/é Café Events" style="width:100%;max-width:200px;margin:10px auto;display:block;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06)">
+    <div class="events-grid gallery-grid    " style="max-width:900px;margin:0 auto">
+    <img src="images/aecafe-event1.jpg" alt="A/é Café Event" style="width:100%;max-width:300px;margin:15px auto 50px auto;display:block;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06)">
+    <img src="images/aecafe-event2.jpg" alt="A/é Café Event" style="width:100%;max-width:300px;margin:15px auto 50px auto;display:block;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06)">
+    <img src="images/aecafe-event3.jpg" alt="A/é Café Event" style="width:100%;max-width:300px;margin:15px auto 50px auto;display:block;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06)">
+    <img src="images/AECAFE-EVENT4.jpg" alt="A/é Café Event" style="width:100%;max-width:300px;margin:15px auto 50px auto;display:block;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,0.06)">
+    </div>
+    
+    <div style="max-width:900px;margin:0 auto;display:grid;gap:16px">
+      <div class="card">
+        <h3>Live Acoustic Night</h3>
+        <p style="color:var(--muted)">Every Friday night — local artists performing. Reserve tables early.</p>
+      </div>
+      <div class="card">
+        <h3>Weekend Brunch Pop-up</h3>
+        <p style="color:var(--muted)">A rotating menu with guest chefs every other Saturday.</p>
+        </div>
+      </div>
+  </main>
+
+  <footer>© 2024 A/é Café — Events</footer>
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+</body>
+</html>
